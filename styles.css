@@ -1,0 +1,73 @@
+body * {
+	font-family: "Red Hot Display", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 300;
+	/* font-style: normal; */
+	font-style: oblique;
+}
+
+body {
+	background-color: black;
+}
+
+* {
+	/* border: 1px dashed red;
+    min-height: 10px; */
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+	padding: 10px;
+	padding-top: 25px;
+}
+
+.postcard-header img {
+	width: 60px;
+	height: 70px;
+	position: relative;
+	bottom: 15px;
+}
+
+.postcard-header h1 {
+	width: 400px;
+	margin-top: 2px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 5px;
+}
+
+.body-right input {
+	border: none;
+	padding: 5px;
+	border-bottom: 1px solid lightgrey;
+}
+
+.postcard-footer {
+	height: 30px;
+	text-align: center;
+}
+
+button {
+	background-color: lightgrey;
+	padding: 4px;
+	height: 30px;
+	border: none;
+	padding-bottom: 8px;
+}
